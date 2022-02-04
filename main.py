@@ -43,7 +43,7 @@ def list(update, context):
 
 def socials(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text="List of Socails are down below:\n {Github} https://github.com/amrohan\n\n {Twitter} https://twitter.com/amrohann\n\n {Instagram} https://www.instagram.com/amrohann\n\n {Email} hello@rohan.ml")
+                             text="List of Socails are down below:\n {Github} https://github.com/thajudecodes\n\n {Twitter} t.me/mwmoviez\n\n {Instagram} https://www.instagram.com/_.thaju____\n\n {Email} hello@rohan.ml")
 
 
 def source_code(update, context):
