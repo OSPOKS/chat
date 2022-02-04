@@ -18,7 +18,7 @@ logging.info('Starting Bot...')
 # all update.message are reply from bots to user
 def start(update, context):
     update.message.reply_text(
-        'Hello there, I\'m an AI bot who can converse with you or assist you in completing tasks.\n To start, say hey, hi, or hello.')
+        'Hello there, I\'m an AI bot who can converse with you or assist you in completing tasks.\n To start, say hey, hi, or hello created by @armiy_v.')
 
 
 def help(update, context):
@@ -43,12 +43,12 @@ def list(update, context):
 
 def socials(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text="List of Socails are down below:\n {Github} https://github.com/amrohan\n\n {Twitter} https://twitter.com/amrohann\n\n {Instagram} https://www.instagram.com/amrohann\n\n {Email} hello@rohan.ml")
+                             text="List of Socails are down below:\n {Github} https://github.com/thajudecodes\n\n {Twitter} https://t.me/armiy_v\n\n {Instagram} https://www.instagram.com/_.thaju____\n\n {Email} hello@rohan.ml")
 
 
 def source_code(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text="the source code can be accessed here\n {Github}\n https://github.com/amrohan/ChatBot")
+                             text="the source code can be accessed here\n {Github}\n https://github.com/Thajudecodes/chat")
 
 
 def projects(update, context):
