@@ -34,12 +34,12 @@ def get_response(message):
 
         # Name
         Bot_Response(message, ['your', 'name'],
-                     'My name is Rohan\'s Bot, nice to meet you!'),
+                     'My name is thaju\'s Bot, nice to meet you!'),
         # Help
         Bot_Response(message, ['help', 'please'],
                      'I will do my best to assist you!'),
         # Website
-        Bot_Response(message, ['link', 'links', ], 'website https://rohan.ml'),
+        Bot_Response(message, ['link', 'links', ], 'website https://github.com/Thajudecodes'),
 
         # Song
         Bot_Response(message, ['play', 'song', ],
@@ -57,15 +57,15 @@ def get_response(message):
 
         # Nude Joke Lol
         Bot_Response(message, [
-                     'nude', 'nudes', ], 'I just took a screenshot, and I\'m sending your photo to @amrohan right now, you lil horny ass😏'),
+                     'nude', 'nudes', ], 'I just took a screenshot, and I\'m sending your photo to @armiy_v right now, you lil horny ass😏'),
 
         # When Querry
         Bot_Response(message, ['when', '?', 'query', 'question', 'inform',
-                     'developer'], 'Inquire with the developer about this. @amrohan'),
+                     'developer'], 'Inquire with the developer about this. @armiy_v'),
 
         # When Website
         Bot_Response(message, ['website', 'amrohan', 'web', 'developer'],
-                     'https://www.rohan.ml'),
+                     'https://github.com/Thajudecodes'),
 
         # When Projects
         Bot_Response(message, ['projects', 'project', 'proj','pro','projec', 'proje'],
